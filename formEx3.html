@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please Enter your Details</h1>
+    <!-- Forms -->
+    <form action="success.html"  target="_blank">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" 
+         name="Firstname" 
+         id="fname"
+         placeholder="John"
+         required>
+        <br>
+        <label for="Lname">Last Name:</label>
+        <input type="text" 
+        name="Lastname" 
+        id="Lname" 
+        placeholder="Doe"
+        required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" 
+        id="email"
+        placeholder="abc@gmail.com"
+        required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" >
+        <br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        </fieldset>
+        <fieldset>
+            <legend>Interests</legend>
+        <input type="checkbox" name="hobbies" value="Music" id="music">
+        <label for="music">Music</label>
+        <input type="checkbox" name="hobbies" value="Sports" id="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="hobbies" value="Reading" id="read">
+        <label for="read">Reading</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Location</legend>
+        <label for="coun">Country:</label>
+        <select name="Country" id="coun">
+            <option value="United states">United States</option>
+            <option value="India">India</option>
+        </select>
+        <br>
+        <label for="city">City:</label>
+        <select name="City" id="city">
+            <option value="New York City">New York City</option>
+        </select>
+        </fieldset>
+        <br>
+       <fieldset>
+        <legend>Additional Information</legend>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments"cols="60" rows="5" placeholder="Your Comments here."></textarea>
+        <br>
+        <label for="Ppicture">Profile Picture</label>
+        <input type="file" capture="user" accept=".jpg,.jpeg">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Submit Options</legend>
+        <label>Preferred Submissions Method:</label>
+        <input type="radio" name="Online" id="p" value="Online" checked>
+        <label for="p">Online</label>
+        <input type="radio" name="Offline" id="o" value="Offline">
+        <label for="o">Offline</label>
+        <br>
+        <label for="">Subscribe to Newsletter:</label>
+        <input type="checkbox" checked>
+        <!-- fieldsets -->
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+class abstract_class{
+
+
+}
